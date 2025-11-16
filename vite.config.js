@@ -13,11 +13,11 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": "/resources/js",
-            "@/components": "/resources/js/Components",
+            "@/components": "/resources/js/components",
             "@/lib": "/resources/js/lib",
         },
     },
     optimizeDeps: {
-        include: ["lucide-react"],
+        include: ["lucide-react", "sweetalert2", "apexcharts", "react-apexcharts"],
     },
 });
